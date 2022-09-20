@@ -73,7 +73,6 @@ def create_contact(phoneBook: dict):
     except ValueError as err:
         print(err)
 
-
 def search_contact(phoneBook: dict, name=""):
 
     try:
